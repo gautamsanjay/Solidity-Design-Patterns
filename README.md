@@ -1,5 +1,3 @@
-# Solidity-Design-Patterns
-
 # Self Destruct
 
 # Factory Pattern
