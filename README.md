@@ -40,6 +40,8 @@ contract TestSelfDestructPattern {
 
 }
 
+In the above mentioned code the function "endTheContract" is responsible for the end of life of this contract, which can be evoked by contract creator only. Once this method is executed the variable "contractEnded" is set to "true". Any future invocation to the method "sendMoneyToContract" will fail because we used a "isNotFinished" modifier and "Contract is no longer valid" mesage will be logged.
+
 
 # Factory Pattern
 
